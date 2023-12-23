@@ -2,7 +2,7 @@ console.log("Welcome to Tic Tac Toe")
 let music = new Audio("music.mp3")
 let audioturn = new Audio("ting.mp3")
 let gomeover = new Audio("gameover.mp3")
-let turn = " X"
+let turn = "X"
 
 // Function to change the turn
 const changeTurn = ()=>{
@@ -11,6 +11,19 @@ const changeTurn = ()=>{
 
 // Funtion to check for a win
 const checkin = ()=>{
+    let wins = [
+        [0,1,2],
+        [3,4,5],
+        [6,7,8,],
+        [0,3,6],
+        [1,4,7],
+        [2,5,8],
+        [0,4,7],
+        [2,4,6]
+    ]
+    wins.forEach(e =>){
+
+    }
 
 }
 
